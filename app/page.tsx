@@ -63,28 +63,28 @@ export default function PortfolioApp() {
       id: 1,
       title: "Personal Portfolio",
       desc: "Portfolio modern dengan animasi dan performa cepat.",
-      img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80",
+      img: "https://res.cloudinary.com/dvi8bgee0/image/upload/v1764653938/hannkey16-profile_c8c0ja.jpg",
       tags: ["React", "Framer Motion", "Tailwind"],
     },
     {
       id: 2,
-      title: "Product Landing Page",
+      title: "Project Website Academy ",
       desc: "Landing page konversi tinggi untuk produk SaaS.",
-      img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
-      tags: ["HTML", "CSS", "A/B Test"],
+      img: "https://res.cloudinary.com/dvi8bgee0/image/upload/v1764653173/Screenshot_2025-12-02_045557_qdfhdo.png",
+      tags: ["React", "Tailwind", "Fremer motion"],
     },
     {
       id: 3,
       title: "Admin Dashboard",
       desc: "Dashboard analitik realtime dengan charts interaktif.",
-      img: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=1200&q=80",
+      img: "https://res.cloudinary.com/dvi8bgee0/image/upload/v1764654043/project-1_ooesyc.jpg",
       tags: ["React", "Charts", "REST API"],
     },
     {
       id: 4,
       title: "E‑commerce Redesign",
       desc: "UI/UX redesign untuk pengalaman checkout yang lebih cepat.",
-      img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80",
+      img: "https://res.cloudinary.com/dvi8bgee0/image/upload/v1764653988/ecommerce-project_dtmynd.jpg",
       tags: ["UX", "Figma", "Conversion"],
     },
   ];
@@ -392,13 +392,13 @@ export default function PortfolioApp() {
               >
                 {/* Avatar image */}
                 <img
-                  src="https://surprising-chocolate-t5dhsgcgoo-5tj4ort2im.edgeone.dev/hannkey16.jpg"
+                  src="https://res.cloudinary.com/dvi8bgee0/image/upload/v1764652915/WhatsApp_Image_2025-12-01_at_23.58.03_e093ebac_gjoey5.jpg"
                   alt="Avatar HannKey"
                   className="w-full h-full object-cover object-top"
                   loading="lazy"
                   onError={(e) => {
-                    // Fallback ke URL ImgBB jika file lokal tidak ditemukan
-                    e.currentTarget.src = "https://surprising-chocolate-t5dhsgcgoo-5tj4ort2im.edgeone.dev/hannkey16.jpg";
+                    e.currentTarget.src =
+                      "https://res.cloudinary.com/dvi8bgee0/image/upload/v1764652915/WhatsApp_Image_2025-12-01_at_23.58.03_e093ebac_gjoey5.jpg";
                   }}
                 />
 
@@ -768,12 +768,12 @@ export default function PortfolioApp() {
                     {
                       icon: Mail,
                       text: "hannkey@gmail.com",
-                      href: "mailto:hannkey@gmail.com",
+                      href: "mailto:hannkey16@gmail.com",
                     },
                     {
                       icon: Github,
                       text: "github.com/hannkey",
-                      href: "https://github.com",
+                      href: "https://github.com/hannkey16-maker",
                     },
                     {
                       icon: Linkedin,
